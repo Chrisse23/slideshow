@@ -1,0 +1,108 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url('/images/startpageImage.JPG') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+
+.footer {
+  float: right;
+  margin-top: 100px;
+  padding-right: 10px;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #B6B6B4;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 150px;
+}
+
+.form-control {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.track-select {
+  margin-bottom: 18px;
+}
+
+.right {
+  float: right;
+  margin-top: 50px;
+}
+
+.middle {
+  margin-top: 200px;
+}
+
+h2, h3,  h4, p, label {
+  color: #ffffff;
+}
+
+.black {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #B2BCC2;
+}
+
+.white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.box {
+  background-color: #000000;
+  max-width: 300px;
+  padding: 5px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+}
+
+@media (max-width: 768px) {
+  .right {
+    float: none;
+    margin-top: 0px;
+  }
+
+  h4 {
+    color: #000000;
+  }
+}
